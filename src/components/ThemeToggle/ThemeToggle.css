@@ -1,0 +1,30 @@
+.theme-toggle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bg-light);
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: var(--primary-maroon);
+  color: white;
+  transform: rotate(15deg);
+}
+
+[data-theme="dark"] .theme-toggle {
+  background: var(--bg-dark-secondary);
+  color: var(--text-light-muted);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  background: var(--primary-maroon);
+  color: white;
+}

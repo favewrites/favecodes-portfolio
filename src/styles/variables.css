@@ -1,0 +1,46 @@
+/* FaveCodes Portfolio — CSS Variables */
+:root {
+  --primary-maroon: #6B1A2A;
+  --primary-maroon-hover: #4A0F1A;
+  --primary-maroon-light: rgba(107, 26, 42, 0.1);
+  --primary-maroon-glow: rgba(107, 26, 42, 0.3);
+  --bg-white: #FFFFFF;
+  --bg-light: #F5F5F7;
+  --bg-dark: #0F0F0F;
+  --bg-dark-secondary: #1A1A1A;
+  --bg-dark-card: #1E1E1E;
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A4A4A;
+  --text-muted: #8A8A8A;
+  --text-white: #FFFFFF;
+  --text-light-muted: #B0B0B0;
+  --success: #4CAF50;
+  --error: #E53935;
+  --border-light: #E0E0E0;
+  --border-dark: #333333;
+  --shadow-soft: 0 4px 20px rgba(0,0,0,0.08);
+  --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
+  --shadow-glow: 0 0 30px rgba(107,26,42,0.15);
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 16px;
+  --radius-xl: 24px;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
+}
+
+[data-theme="dark"] {
+  --bg-white: #0F0F0F;
+  --bg-light: #1A1A1A;
+  --text-primary: #F0F0F0;
+  --text-secondary: #B0B0B0;
+  --text-muted: #6A6A6A;
+  --border-light: #333333;
+  --shadow-soft: 0 4px 20px rgba(0,0,0,0.3);
+}

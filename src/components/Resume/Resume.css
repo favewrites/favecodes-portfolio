@@ -1,0 +1,81 @@
+.resume-content {
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.resume-content.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.resume-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-maroon-light);
+}
+
+.resume-section p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.experience-item {
+  margin-bottom: 1.5rem;
+}
+
+.experience-item h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.experience-date {
+  font-size: 0.875rem;
+  color: var(--primary-maroon);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+[data-theme="dark"] .resume-section h3 {
+  color: var(--text-white);
+}
+
+[data-theme="dark"] .experience-item h4 {
+  color: var(--text-white);
+}
+
+@media (max-width: 768px) {
+  .resume-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}
