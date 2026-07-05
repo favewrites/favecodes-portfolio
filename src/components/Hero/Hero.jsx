@@ -68,7 +68,7 @@ const Hero = () => {
         <div className="hero__image-wrapper">
           <div className="hero__image-container">
             <img
-              src="https://raw.githubusercontent.com/favewrites/favecodes-portfolio/main/Myhero.jpg"
+              src="/Myhero.jpg"
               alt="Favour Chidinma Eboka"
               className="hero__image"
             />
