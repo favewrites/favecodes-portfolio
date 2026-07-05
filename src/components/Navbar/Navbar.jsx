@@ -37,7 +37,7 @@ const Navbar = ({ theme, toggleTheme }) => {
       <div className="navbar__container">
         <a href="#hero" className="navbar__logo" onClick={(e) => handleLinkClick(e, '#hero')}>
           <img 
-            src="https://raw.githubusercontent.com/favewrites/favecodes.dev/main/Logo.jpg" 
+            src="https://raw.githubusercontent.com/favewrites/favecodes-portfolio/main/Logo.jpg" 
             alt="FaveCodes Logo" 
             className="navbar__logo-img"
           />

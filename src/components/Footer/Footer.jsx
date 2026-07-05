@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-brand">
             <img
-              src="https://raw.githubusercontent.com/favewrites/favecodes.dev/main/Logo.jpg"
+              src="https://raw.githubusercontent.com/favewrites/favecodes-portfolio/main/Logo.jpg"
               alt="FaveCodes"
               className="footer-logo"
             />

@@ -18,7 +18,7 @@ const LoadingScreen = () => {
     <div className="loading-screen">
       <div className="loading-content">
         <img
-          src="https://raw.githubusercontent.com/favewrites/favecodes.dev/main/Logo.jpg"
+          src="https://raw.githubusercontent.com/favewrites/favecodes-portfolio/main/Logo.jpg"
           alt="FaveCodes Logo"
           className="loading-logo"
         />
