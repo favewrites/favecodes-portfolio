@@ -57,7 +57,7 @@ export const projects = [
 
     backend: false,
 
-    year: "2024",
+    year: "2026",
 
     featured: false,
   },
